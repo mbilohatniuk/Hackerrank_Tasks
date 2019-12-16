@@ -26,6 +26,7 @@
 		E10D9DD423A4F98F00B1DF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10D9DD723A4F98F00B1DF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E10D9DD923A4F98F00B1DF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10D9DE123A7929D00B1DF81 /* Pairs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Pairs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				E10D9DD623A4F98F00B1DF81 /* LaunchScreen.storyboard */,
 				E10D9DD923A4F98F00B1DF81 /* Info.plist */,
 				E10D9DD123A4F98A00B1DF81 /* Hackerrank_tasks.xcdatamodeld */,
+				E10D9DE123A7929D00B1DF81 /* Pairs.playground */,
 			);
 			path = Hackerrank_tasks;
 			sourceTree = "<group>";
