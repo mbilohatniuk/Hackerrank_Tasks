@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E10940FB23AB773F0022911F /* ANDProduct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ANDProduct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E10D9DC523A4F98A00B1DF81 /* Hackerrank_tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackerrank_tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10D9DC823A4F98A00B1DF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E10D9DCA23A4F98A00B1DF81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 				E10D9DD623A4F98F00B1DF81 /* LaunchScreen.storyboard */,
 				E10D9DD923A4F98F00B1DF81 /* Info.plist */,
 				E10D9DD123A4F98A00B1DF81 /* Hackerrank_tasks.xcdatamodeld */,
+				E10940FB23AB773F0022911F /* ANDProduct.playground */,
 			);
 			path = Hackerrank_tasks;
 			sourceTree = "<group>";
