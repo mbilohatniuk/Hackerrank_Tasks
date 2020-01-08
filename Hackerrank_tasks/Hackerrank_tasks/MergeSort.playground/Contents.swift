@@ -4,27 +4,6 @@ import PlaygroundSupport
 
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-//enum Result {
-//
-//    case notEnoughElements
-//    case notInTheCoreRange
-//    case success([Int])
-//    case notInTheElementsRange
-//
-//    var description: Any {
-//        switch self {
-//        case .notEnoughElements:
-//            return "not enough elements in array"
-//        case .notInTheCoreRange:
-//            return "the cores number not in the core range"
-//        case .notInTheElementsRange:
-//            return "the numbers of elements not in the elements range"
-//        case .success(let value):
-//            return value
-//        }
-//    }
-//}
-
 //зробив як зміг
 class ParallelMargeSort {
     
@@ -93,14 +72,32 @@ class ParallelMargeSort {
 
 
 
-let a = ParallelMargeSort()
-let arr = [3,5,7,1,2]
+let object = ParallelMargeSort()
+var mult = [Int]()
+var single = [Int]()
 var array = [Int]()
+
 for _ in 0...200 {
     array.append(Int.random(in: 1...100))
 }
-array = a.parallelSort(array, 2)
-print(array)
+
+let queue = DispatchQueue(label: "qwe", qos: .userInteractive, attributes: .concurrent)
+
+
+queue.async {
+    let firstDate = Date()
+    single = object.parallelSort(array, 1)
+    print("first",Date().timeIntervalSince(firstDate))
+    print("single", single)
+}
+
+queue.async {
+    let secondDate = Date()
+    mult = object.parallelSort(array, 2)
+    print("second", Date().timeIntervalSince(secondDate))
+    print("mult", mult)
+}
+
 
 
 
